@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "PostNL Login: Double Close Button Remover Extension",
+  "content_scripts": [
+    {
+      "matches": ["*://*.loginpostnl.net/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
